@@ -1,0 +1,63 @@
+.joke-main-container {
+  // display: block;
+  margin-top: 40px;
+  & .category-wrap {
+    padding: 40px  20px;
+    background-color: rgb(245, 242, 239);
+    & .category-col {
+      padding: 10px 0;
+      & .category-btn {
+        width: 45%;
+        font-size: 16px;
+        border: 1px solid  #fff;
+        background-color: #fff;
+        border-radius: 7px;
+        margin: 0 2px;
+        &:hover {
+          background-color: #007e7d;
+          color: #fff;
+        }
+        &:focus{
+          background-color: #007e7d;
+          color: #fff;
+        }
+        @media screen  and (max-width: 425px) {
+          width: 100%;
+        }
+
+      }
+    }
+  }
+  & .joke-display-wrap {
+    display: block;
+    margin: auto;
+    width: 30%;
+
+    & > p {
+      text-align: center;
+      color: #007e7d;
+      margin-top: 20px;
+    }
+    & .joke-value-wrap {
+      border: 1px solid #27d6e2;
+      background-color: #27d6e2;
+      padding: 40px 10px;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+    & .new-joke-btn {
+      display: block;
+      margin: auto;
+      border:1px solid #007e7d;
+      background-color: #007e7d;
+      color: #fff;
+      padding: 3px 15px;
+      border-radius: 5px;
+    }
+    @media screen and (max-width: 425px) {
+      width:100%;
+    }
+  }
+  
+}
+ 
