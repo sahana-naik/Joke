@@ -7,11 +7,12 @@ import {BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <React.Fragment>
-      <Router>
+      {/* <Router>
         <Routes>
           <Route exact path="/" element={<CategoryList />} />
         </Routes>
-      </Router>
+      </Router> */}
+      <CategoryList />
     </React.Fragment>
   );
 }
